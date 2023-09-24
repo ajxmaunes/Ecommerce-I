@@ -30,6 +30,7 @@ const Header = () => {
               <PiCoatHangerBold className='text-[40px]' />
             </div>
         </Link>
+        <div className='text-[25px]'>FASH-ON</div>
         {/* cart */}
         <div onClick={() => setIsOpen(!isOpen)} className='cursor-pointer flex relative'>
           <BsBag className='text-2xl' />
