@@ -7,6 +7,7 @@ import { ProductContext } from '../contexts/ProductContext'
 import Product from '../components/Product'
 import Hero from '../components/Hero'
 import Hero1 from '../components/Hero1'
+import Banner from '../components/Banner'
 
 // import icons
 import { AiOutlineShopping } from 'react-icons/ai';
@@ -22,7 +23,7 @@ const Home = () => {
   return <div>
     <Hero1 />
     {/* <Hero /> */}
-    <section className='py-16'>
+    <section className='md:px-[30px] max-md:px-[30px]'>
       <div className='text-[35px] flex justify-center mb-[2rem]'>
         SHOP<AiOutlineShopping className='text-[25px]' />
       </div>
@@ -34,6 +35,7 @@ const Home = () => {
           </div>
         </div>
     </section>
+    <Banner />
   </div>
 }
 

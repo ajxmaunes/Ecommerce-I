@@ -1,18 +1,17 @@
 .grid-container {
     display: grid;
-    height: 30rem;
+    height: 31rem;
     grid-template-columns: 1fr 1fr 2fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 'one two four' 'one two four-low';
     gap: 10px;
     margin-top: 5rem;
-    margin-right: 5rem;
-    margin-left: 4.5rem;
     width: 100%;
 }
 
 .home-container {
     padding-top: 2rem;
+    padding-bottom: 3.5rem;
 }
 
 .featured {
@@ -92,17 +91,11 @@
             "four four-low";
         grid-gap: 13px;
         gap: 8px;
-        margin-right: 1rem;
-        margin-left: 1rem;
-        margin-top: 5rem;
+        padding: 0 30px;
     }
 }
 
 @media (max-width:450px) {
-    .grid-container {
-        margin-right: 0rem;
-        margin-left: 0rem;
-    }
     .main-description {
         bottom: 1rem;
         left: 1rem;
@@ -111,6 +104,9 @@
 }
 
 @media (max-width:400px) {
+    .grid-container{
+        padding: 0 10px;
+    }
     .main-description {
         bottom: 1rem;
         left: 0.5rem;
