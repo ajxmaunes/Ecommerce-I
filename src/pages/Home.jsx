@@ -6,7 +6,6 @@ import { ProductContext } from '../contexts/ProductContext'
 // import components
 import Product from '../components/Product'
 import Hero from '../components/Hero'
-import Hero1 from '../components/Hero1'
 import Banner from '../components/Banner'
 
 // import icons
@@ -21,8 +20,7 @@ const Home = () => {
     return item.category === "men's clothing" || item.category === "women's clothing"
   })
   return <div>
-    <Hero1 />
-    {/* <Hero /> */}
+    <Hero />
     <section className='md:px-[30px] max-md:px-[30px]'>
       <div className='text-[35px] flex justify-center mb-[2rem]'>
         SHOP<AiOutlineShopping className='text-[25px]' />
