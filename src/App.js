@@ -11,6 +11,10 @@ import ProductDetails from './pages/ProductDetails.jsx'
 import Sidebar from './components/Sidebar'
 import Header from './components/Header'
 import Footer from './components/Footer'
+import Women from "./pages/Women";
+import Men from "./pages/Men";
+import Accessories from "./pages/Accessories";
+import Bags from "./pages/Bags";
 
 
 function App() {
@@ -21,6 +25,10 @@ function App() {
         <Routes>
           <Route path="/*" element={<Home />} />
           <Route path="/product/:id" element={<ProductDetails />} />
+          <Route path="/women" element={<Women />} />
+          <Route path="/men" element={<Men />} />
+          <Route path="/accessories" element={<Accessories />} />
+          <Route path="/bags" element={<Bags />} />
         </Routes>
         <Sidebar />
         <Footer />

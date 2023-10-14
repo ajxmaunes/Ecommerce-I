@@ -12,28 +12,28 @@ function Hero() {
         <div className="container">
           <div className="grid-container">
             <div className="featured grid-one">
-              <Link to="">
+              <Link to="/men">
                 <div id="img1" className="lil-overlay"></div>
                 <img src={Main1} alt="img1" />
                 <p className="main-description">MEN</p>
               </Link>
             </div>
             <div className="featured grid-two">
-              <Link to="">
+              <Link to="/women">
                 <div id="img2" className="lil-overlay"></div>
                 <img src={Main2} alt="img2" />
                 <p className="main-description">WOMEN</p>
               </Link>
             </div>
             <div className="featured grid-four">
-              <Link to="">
+              <Link to="/accessories">
                 <div id="img3" className="lil-overlay"></div>
                 <img src={Main3} alt="img3" />
                 <p className="main-description">ACCESSORIES</p>
               </Link>
             </div>
             <div className="featured grid-four-low">
-              <Link to="">
+              <Link to="/bags">
                 <div id="img4" className="lil-overlay"></div>
                 <img src={Main4} alt="img4" />
                 <p className="main-description">BAGS</p>
