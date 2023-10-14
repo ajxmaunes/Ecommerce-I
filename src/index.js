@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Women from './pages/Women';
+import { HashRouter } from 'react-router-dom';
 
 // product provider
 import ProductProvider from './contexts/ProductContext';
@@ -18,7 +18,7 @@ root.render(
   <SidebarProvider>
     <CartProvider>
       <ProductProvider>
-        <App/>
+          <App/>
       </ProductProvider>
     </CartProvider>
   </SidebarProvider>

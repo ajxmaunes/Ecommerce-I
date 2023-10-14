@@ -1,7 +1,7 @@
 import React from "react";
 
 // import react router dom
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, HashRouter } from 'react-router-dom'
 
 // import pages
 import Home from './pages/Home'
@@ -20,19 +20,19 @@ import Bags from "./pages/Bags";
 function App() {
   return (
     <div className="overflow-hidden">
-      <Router>
+      <HashRouter>
         <Header />
-        <Routes>
-          <Route path="/*" element={<Home />} />
-          <Route path="/product/:id" element={<ProductDetails />} />
-          <Route path="/women" element={<Women />} />
-          <Route path="/men" element={<Men />} />
-          <Route path="/accessories" element={<Accessories />} />
-          <Route path="/bags" element={<Bags />} />
-        </Routes>
+          <Routes>
+            <Route path="/*" element={<Home />} />
+            <Route path="/product/:id" element={<ProductDetails />} />
+            <Route path="/women" element={<Women />} />
+            <Route path="/men" element={<Men />} />
+            <Route path="/accessories" element={<Accessories />} />
+            <Route path="/bags" element={<Bags />} />
+          </Routes>
         <Sidebar />
         <Footer />
-      </Router>
+      </HashRouter>
     </div>
   );
 }

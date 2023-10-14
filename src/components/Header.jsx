@@ -24,13 +24,13 @@ const Header = () => {
   return (
     <header className={`${isActive ? 'bg-white py-4 shadow-md' : 'bg-none py-6'} fixed w-full z-10 transition-all md:px-[30px] max-md:px-[30px]`}>
       <div className='container mx-auto flex items-center justify-between h-full'>
-        <Link to={'/'}>
+        <Link to={'/*'}>
             {/* logo */}
             <div>
               <PiCoatHangerBold className='text-[40px]' />
             </div>
         </Link>
-        <Link to={'/'} className='text-[25px] ml-[-20px] border-b-4 border-[#1450A3]'>FASH-ON</Link>
+        <Link to={'/*'} className='text-[25px] ml-[-20px] border-b-4 border-[#1450A3]'>FASH-ON</Link>
         {/* cart */}
         <div onClick={() => setIsOpen(!isOpen)} className='cursor-pointer flex relative'>
           <BsBag className='text-2xl' />
