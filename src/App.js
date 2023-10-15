@@ -15,6 +15,7 @@ import Women from "./pages/Women";
 import Men from "./pages/Men";
 import Accessories from "./pages/Accessories";
 import Bags from "./pages/Bags";
+import Login from "./pages/Login";
 
 
 function App() {
@@ -29,8 +30,9 @@ function App() {
             <Route path="/men" element={<Men />} />
             <Route path="/accessories" element={<Accessories />} />
             <Route path="/bags" element={<Bags />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
-        <Sidebar />
+          <Sidebar />
         <Footer />
       </HashRouter>
     </div>

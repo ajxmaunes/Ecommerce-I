@@ -20,10 +20,19 @@ const Home = () => {
     return item.category === "men's clothing" || item.category === "women's clothing" || item.category === "jewelery"
   })
 
+  const aStyle = "p-[15px] hover:text-[#1450A3]"
   return <div>
+    <div className="footer-links text-center mt-[6rem] text-[18px] max-sm:hidden">
+          <a className={aStyle} href="/">Store locations</a>
+          <a className={aStyle} href="/">FAQs</a>
+          <a className={aStyle} href="/">News</a>
+          <a className={aStyle} href="/">Careers</a>
+          <a className={aStyle} href="/">Contact Us</a>
+          <a className={aStyle} href="/">About</a>
+      </div>
     <Hero />
       <section className='md:px-[30px] max-md:px-[30px]'>
-        <div className='text-[35px] flex justify-center mb-[2rem]'>
+        <div className='text-[35px] flex justify-center mb-[1.5rem] max-md:text-[30px]'>
           SHOP<AiOutlineShopping className='text-[25px]' />
         </div>
           <div className='container mx-auto'>

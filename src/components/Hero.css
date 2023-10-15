@@ -5,13 +5,12 @@
     grid-template-rows: 1fr 1fr;
     grid-template-areas: 'one two four' 'one two four-low';
     gap: 10px;
-    margin-top: 5rem;
     width: 100%;
 }
 
 .home-container {
     padding-top: 2rem;
-    padding-bottom: 3.5rem;
+    padding-bottom: 2.5rem;
 }
 
 .featured {
@@ -96,6 +95,9 @@
 }
 
 @media (max-width:450px) {
+    .grid-container {
+        margin-top: 3.5rem;
+    }
     .main-description {
         bottom: 1rem;
         left: 1rem;
