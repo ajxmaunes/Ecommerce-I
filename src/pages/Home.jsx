@@ -10,6 +10,8 @@ import Banner from '../components/Banner'
 
 // import icons
 import { AiOutlineShopping } from 'react-icons/ai';
+// import link
+import { Link } from 'react-router-dom'
 
 
 const Home = () => {
@@ -21,9 +23,9 @@ const Home = () => {
   })
 
   const aStyle = "p-[15px] hover:text-[#1450A3]"
-  return <div>
-    <div className="footer-links text-center mt-[6rem] text-[18px] max-sm:hidden">
-          <a className={aStyle} href="/">Store locations</a>
+  return <div className='md:mt-[5rem] max-md:mt-[1.5rem]'>
+    <div className="container text-center text-[18px] max-sm:hidden py-3">
+          <a className={aStyle} href="#store">Store locations</a>
           <a className={aStyle} href="/">FAQs</a>
           <a className={aStyle} href="/">News</a>
           <a className={aStyle} href="/">Careers</a>

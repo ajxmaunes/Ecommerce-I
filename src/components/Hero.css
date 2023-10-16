@@ -9,7 +9,7 @@
 }
 
 .home-container {
-    padding-top: 2rem;
+    padding-top: 10px;
     padding-bottom: 2.5rem;
 }
 
@@ -81,7 +81,7 @@
 
 @media (max-width:850px) {
     .grid-container {
-        height: 500px;
+        height: 450px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -90,7 +90,7 @@
             "four four-low";
         grid-gap: 13px;
         gap: 8px;
-        padding: 0 30px;
+        padding: 0 20px;
     }
 }
 
@@ -101,7 +101,7 @@
     .main-description {
         bottom: 1rem;
         left: 1rem;
-        font-size: 3rem;
+        font-size: 1.5rem;
     }
 }
 

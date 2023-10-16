@@ -10,17 +10,20 @@ import ProductProvider from './contexts/ProductContext';
 import SidebarProvider from './contexts/SidebarContext'
 // cart provider
 import CartProvider from './contexts/CartContext';
+import MenuProvider from './contexts/MobileMenuContext';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
   <SidebarProvider>
-    <CartProvider>
-      <ProductProvider>
-          <App/>
-      </ProductProvider>
-    </CartProvider>
+    <MenuProvider>
+      <CartProvider>
+        <ProductProvider>
+            <App/>
+        </ProductProvider>
+      </CartProvider>
+    </MenuProvider>
   </SidebarProvider>
   </React.StrictMode>
 );

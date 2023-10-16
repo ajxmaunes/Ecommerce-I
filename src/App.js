@@ -16,6 +16,8 @@ import Men from "./pages/Men";
 import Accessories from "./pages/Accessories";
 import Bags from "./pages/Bags";
 import Login from "./pages/Login";
+import MobileMenu from "./components/MobileMenu";
+import StoreLocations from "./pages/StoreLocations";
 
 
 function App() {
@@ -31,8 +33,10 @@ function App() {
             <Route path="/accessories" element={<Accessories />} />
             <Route path="/bags" element={<Bags />} />
             <Route path="/login" element={<Login />} />
+            <Route path="/store" element={<StoreLocations />} />
           </Routes>
           <Sidebar />
+          <MobileMenu/>
         <Footer />
       </HashRouter>
     </div>

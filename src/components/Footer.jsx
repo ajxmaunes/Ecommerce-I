@@ -9,7 +9,7 @@ const Footer = () => {
     <footer className='bg-primary py-10'>
       <div className='container mx-auto'>
         <div className="footer-links text-center mb-[2rem] text-white text-[20px] max-sm:hidden">
-          <a className={aStyle} href="/">Store locations</a>
+          <a className={aStyle} href="#store">Store locations</a>
           <a className={aStyle} href="/">FAQs</a>
           <a className={aStyle} href="/">News</a>
           <a className={aStyle} href="/">Careers</a>
