@@ -31,7 +31,7 @@ function FAQs() {
 
                 {/* Content */}
                 <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
                 </div>
             </div>
 
@@ -48,7 +48,7 @@ function FAQs() {
 
                 {/* Content */}
                 <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
                 </div>
             </div>
 
@@ -65,7 +65,7 @@ function FAQs() {
 
                 {/* Content */}
                 <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
                 </div>
             </div>
 
@@ -82,7 +82,7 @@ function FAQs() {
 
                 {/* Content */}
                 <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                    <p className='p-4max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
                 </div>
             </div>
 
@@ -99,7 +99,7 @@ function FAQs() {
 
                 {/* Content */}
                 <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
                 </div>
             </div>
 
@@ -116,7 +116,7 @@ function FAQs() {
 
                 {/* Content */}
                 <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
                 </div>
             </div>
 
@@ -133,7 +133,7 @@ function FAQs() {
 
                 {/* Content */}
                 <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
                 </div>
             </div>
 
@@ -150,7 +150,7 @@ function FAQs() {
 
                 {/* Content */}
                 <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
                 </div>
             </div>
         </div>
