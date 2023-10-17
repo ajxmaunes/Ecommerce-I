@@ -6,25 +6,37 @@ import { FaLocationDot } from 'react-icons/fa6';
 function StoreLocations() {
   return (
     <>
-      <section className='mt-[8rem] text-center'>
-        <div className='text-[30px] flex justify-center items-center'>
+      <section className='mt-[6rem] text-center'>
+        <div className='text-[30px] max-md:text-[25px] flex justify-center items-center'>
               <h1 className='border-b-4'>STORE LOCATIONS</h1>
         </div>
-        <div className='container flex py-[4rem] px-[1rem] max-md:flex-col gap-10 max-lg:gap-5'>
-            <div className='p-[2rem] border text-start'>
-                <h1 className='text-[25px] font-semibold flex items-center my-2'>SM North <FaLocationDot className='text-[20px] mx-2'/></h1>
+        <div className='container justify-between flex py-[3rem] px-[1rem] max-md:flex-col gap-10 max-lg:gap-5'>
+            <div className='px-8 py-4 border text-start'>
+                <h1 className='text-[25px] max-md:text-[22px] font-semibold flex items-center my-2'>SM North <FaLocationDot className='text-[20px] max-md:text-[18px] mx-2'/></h1>
                 <p className='my-2'>North Avenue, corner Epifanio de los Santos Ave, Quezon City, 1100 Metro Manila</p>
                 <p className='flex items-center'><BsTelephoneFill className='mr-2'/>+12345689</p>
+                <div className='text-[14px] text-gray-600 my-2'>
+                  <p>Mon-Fri : 9:00AM - 9:00PM</p>
+                  <p>Sat-Sun : 9:00AM - 7:00PM</p>
+                </div>
             </div>
-            <div className='p-[2rem] border text-start'>
-                <h1 className='text-[25px] font-semibold flex items-center my-2'>SM North <FaLocationDot className='text-[20px] mx-2'/></h1>
+            <div className='px-8 py-4 border text-start'>
+                <h1 className='text-[25px] max-md:text-[22px] font-semibold flex items-center my-2'>SM North <FaLocationDot className='text-[20px] max-md:text-[18px] mx-2'/></h1>
                 <p className='my-2'>North Avenue, corner Epifanio de los Santos Ave, Quezon City, 1100 Metro Manila</p>
                 <p className='flex items-center'><BsTelephoneFill className='mr-2'/>+12345689</p>
+                <div className='text-[14px] text-gray-600 my-2'>
+                  <p>Mon-Fri : 9:00AM - 9:00PM</p>
+                  <p>Sat-Sun : 9:00AM - 7:00PM</p>
+                </div>
             </div>
-            <div className='p-[2rem] border text-start'>
-                <h1 className='text-[25px] font-semibold flex items-center my-2'>SM North <FaLocationDot className='text-[20px] mx-2'/></h1>
+            <div className='px-8 py-4 border text-start'>
+                <h1 className='text-[25px] max-md:text-[22px] font-semibold flex items-center my-2'>SM North <FaLocationDot className='text-[20px] max-md:text-[18px] mx-2'/></h1>
                 <p className='my-2'>North Avenue, corner Epifanio de los Santos Ave, Quezon City, 1100 Metro Manila</p>
                 <p className='flex items-center'><BsTelephoneFill className='mr-2'/>+12345689</p>
+                <div className='text-[14px] text-gray-600 my-2'>
+                  <p>Mon-Fri : 9:00AM - 9:00PM</p>
+                  <p>Sat-Sun : 9:00AM - 7:00PM</p>
+                </div>
             </div>
         </div>
 

@@ -25,8 +25,8 @@ const Home = () => {
   const aStyle = "p-[15px] hover:text-[#1450A3]"
   return <div className='md:mt-[5rem] max-md:mt-[1.5rem]'>
     <div className="container text-center text-[18px] max-sm:hidden py-3">
-          <a className={aStyle} href="#store">Store locations</a>
-          <a className={aStyle} href="/">FAQs</a>
+          <Link className={aStyle} to='/store'>Store locations</Link>
+          <Link className={aStyle} to="/faqs">FAQs</Link>
           <a className={aStyle} href="/">News</a>
           <a className={aStyle} href="/">Careers</a>
           <a className={aStyle} href="/">Contact Us</a>
@@ -34,11 +34,11 @@ const Home = () => {
       </div>
     <Hero />
       <section className='md:px-[30px] max-md:px-[30px]'>
-        <div className='text-[35px] flex justify-center mb-[1.5rem] max-md:text-[30px]'>
+        <div className='text-[35px] flex justify-center mb-[2rem] max-md:text-[30px]'>
           SHOP<AiOutlineShopping className='text-[25px]' />
         </div>
           <div className='container mx-auto'>
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 gap-[30px] max-w-sm mx-auto md:max-w-none md:mx-0'>
+            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-[30px] max-w-sm mx-auto md:max-w-none md:mx-0'>
               {filteredProducts.map(product => {
                 return <Product product={product} key={product.id} />
               })}

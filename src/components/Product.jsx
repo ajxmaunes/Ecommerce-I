@@ -12,7 +12,7 @@ const Product = ({product}) => {
   const { id, image, category, title, price } = product
   return (
     <div>
-      <div className='border border-[#e4e4e4] h-[300px] mb-4 mt-5 relative overflow-hidden group transition'>
+      <div className='border border-[#e4e4e4] h-[300px] mb-4 relative overflow-hidden group transition'>
         <div className='w-full h-full flex justify-center items-center'>
           {/* image */}
           <div className='w-[200px] mx-auto flex justify-center items-center'>
@@ -35,9 +35,9 @@ const Product = ({product}) => {
       <div>
         <div className='text-sm capitalize text-gray-500 mb-1'>{category}</div>
         <Link to={`/product/${id}`}>
-          <h2 className='font-semibold mb-1'>{title}</h2>
+          <h2 className='font-semibold mb-1 text-[15px]'>{title}</h2>
         </Link>
-        <div className='font-semibold'>$ {price}</div>
+        <div className='font-semibold text-[18px]'>$ {price}</div>
       </div>
     </div>
   )

@@ -5,6 +5,8 @@ import { MenuContext } from '../contexts/MobileMenuContext'
 import { AiOutlineClose } from 'react-icons/ai'
 import { BsFacebook } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
+// import link
+import { Link } from 'react-router-dom'
 
 const MobileMenu = () => {
   const { isOpenLeft, handleClose } = useContext(MenuContext)
@@ -20,8 +22,8 @@ const MobileMenu = () => {
       </div>
 
       <div onClick={handleClose} className="footer-links flex flex-col text-center mt-[4rem] text-[18px]">
-          <a className={aStyle} href="#store">Store locations</a>
-          <a className={aStyle} href="/">FAQs</a>
+          <Link className={aStyle} to="/store">Store locations</Link>
+          <Link className={aStyle} to="/faqs">FAQs</Link>
           <a className={aStyle} href="/">News</a>
           <a className={aStyle} href="/">Careers</a>
           <a className={aStyle} href="/">Contact Us</a>

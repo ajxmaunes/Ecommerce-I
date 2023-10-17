@@ -1,7 +1,7 @@
 import React from "react";
 
 // import react router dom
-import { BrowserRouter as Router, Route, Routes, HashRouter } from 'react-router-dom'
+import { Route, Routes, HashRouter } from 'react-router-dom'
 
 // import pages
 import Home from './pages/Home'
@@ -18,6 +18,7 @@ import Bags from "./pages/Bags";
 import Login from "./pages/Login";
 import MobileMenu from "./components/MobileMenu";
 import StoreLocations from "./pages/StoreLocations";
+import FAQs from "./pages/FAQs";
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
             <Route path="/bags" element={<Bags />} />
             <Route path="/login" element={<Login />} />
             <Route path="/store" element={<StoreLocations />} />
+            <Route path="/faqs" element={<FAQs />} />
           </Routes>
           <Sidebar />
           <MobileMenu/>

@@ -19,8 +19,8 @@ const Bags = () => {
 
   return (
       <div>
-          <section className='md:px-[30px] max-md:px-[30px] py-[8rem]'>
-            <div className='text-[35px] flex justify-center mb-[2rem] items-center'>
+          <section className='md:px-[30px] max-md:px-[30px] py-[6rem]'>
+            <div className='text-[35px] max-md:text-[30px] flex justify-center mb-[1rem] items-center'>
               BAGS
             </div>
               <div className='container mx-auto'>

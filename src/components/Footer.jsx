@@ -2,6 +2,8 @@ import React from 'react'
 // Import icons
 import { BsFacebook } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
+// Import link
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const aStyle = "p-[15px] hover:text-[18px]"
@@ -9,8 +11,8 @@ const Footer = () => {
     <footer className='bg-primary py-10'>
       <div className='container mx-auto'>
         <div className="footer-links text-center mb-[2rem] text-white text-[20px] max-sm:hidden">
-          <a className={aStyle} href="#store">Store locations</a>
-          <a className={aStyle} href="/">FAQs</a>
+          <Link className={aStyle} to="/store">Store locations</Link>
+          <Link className={aStyle} to="/faqs">FAQs</Link>
           <a className={aStyle} href="/">News</a>
           <a className={aStyle} href="/">Careers</a>
           <a className={aStyle} href="/">Contact Us</a>

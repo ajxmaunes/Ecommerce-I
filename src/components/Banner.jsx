@@ -6,7 +6,7 @@ function Banner({ title, text, img }) {
   return (
     <div className="my-[5rem] max-sm:mb-0">
       <div className="container">
-        <div className="banner-container flex h-[30rem] overflow-hidden flex-row-reverse max-sm:m-0">
+        <div className="banner-container flex h-[30rem] max-md:h-[25rem] overflow-hidden flex-row-reverse max-sm:m-0">
           <div className="text-side w-[50%] max-sm:w-[100%] text-start max-sm:text-center flex flex-col justify-center md:p-[60px] max-sm:p-[40px] bg-[#E9E9E9]">
             <div className="text">
               <h2 className="text-[1.2rem] font-[600] mb-[1.5rem]">Comfortable & Elegante Living</h2>

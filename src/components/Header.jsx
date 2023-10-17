@@ -6,12 +6,10 @@ import { MenuContext } from '../contexts/MobileMenuContext'
 import { CartContext } from '../contexts/CartContext'
 // import icons
 import { BsBag } from 'react-icons/bs'
-import { BsPerson } from 'react-icons/bs'
+import { IoPersonOutline } from 'react-icons/io5'
 import { HiOutlineMenuAlt2 } from 'react-icons/hi'
 // import link
 import { Link } from 'react-router-dom'
-// import logo
-import { PiCoatHangerBold } from 'react-icons/pi';
 
 const Header = () => {
   // header state
@@ -29,7 +27,7 @@ const Header = () => {
     <header className={`${isActive ? 'bg-white py-4 shadow-md' : 'bg-none py-6'} fixed w-full z-10 transition-all md:px-[30px] max-md:px-[20px] max-md:py-4`}>
       <div className='container mx-auto flex items-center justify-between h-full'>
         <div onClick={() => setIsOpenLeft(!isOpenLeft)} className='md:hidden'>
-          <HiOutlineMenuAlt2 className='text-[30px] mr-10 -ml-2 items-center'/>
+          <HiOutlineMenuAlt2 className='text-[30px] mr-10 max-md:mr-4 -ml-2 items-center'/>
         </div>
         <Link to={'/*'} className='mr-4 max-md:hidden cursor-pointer'>
             {/* logo */}
@@ -39,8 +37,8 @@ const Header = () => {
         {/* cart */}
         <div className='cursor-pointer flex relative items-center'>
           {/* Login */}
-          <Link to={'/login'}>
-            <BsPerson className='text-[30px] max-md:text-[25px]'/>
+          <Link to={'/login'} className='max-md:hidden'>
+            <IoPersonOutline className='text-[26px] mt-[1px] max-md:text-[25px]'/>
           </Link>
           <div onClick={() => setIsOpen(!isOpen)}>
             <BsBag className='text-2xl max-md:text-[22px] ml-4' />
