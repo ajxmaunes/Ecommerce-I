@@ -35,13 +35,13 @@ function Careers() {
                         <h1 className='text-[25px] mb-4 max-md:text-[23px] font-medium border-solid border-2 px-2 border-black text-center'>f'O</h1>
                     </div>
 
-                    <h1 className='text-[25px] font-semibold'>Back-end Web Developer</h1>
+                    <h1 className='text-[25px] max-md:text-[22px] font-semibold'>Back-end Web Developer</h1>
                     <div className='my-4'>
                         <button className={buttonStyle}>Apply on Indeed</button>
                         <button className={buttonStyle}>Apply on LinkedIn</button>
                         <button className={buttonStyle}>Apply on Kalibrr</button>
                     </div>
-                    <div className='text text-gray-600'>
+                    <div className='text max-md:text-[15px] text-gray-600'>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Recusandae quo aperiam nihil cum asperiores iste dolore atque delectus est esse corrupti facere, aut laudantium quaerat praesentium tenetur amet molestias, dignissimos culpa aliquid? Vero ipsam quo inventore fugiat quam, perspiciatis amet et consequuntur cum nobis provident fugit ducimus. Reiciendis ab reprehenderit vero dolore quo cupiditate optio rerum dignissimos veritatis voluptas omnis, sequi laboriosam officia distinctio officiis eaque dolorem sit. Esse magnam omnis facere, atque dolorem quos non adipisci quis inventore maiores.</p>
                     </div>
                 </div>
