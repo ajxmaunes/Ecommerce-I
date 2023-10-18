@@ -10,7 +10,7 @@ function StoreLocations() {
         <div className='text-[30px] max-md:text-[25px] flex justify-center items-center'>
               <h1 className='border-b-4'>STORE LOCATIONS</h1>
         </div>
-        <div className='container justify-between flex py-[3rem] px-[1rem] max-md:flex-col gap-10 max-lg:gap-5'>
+        <div className='container justify-between flex py-[3rem] max-md:px-[1rem] max-md:flex-col gap-10 max-lg:gap-5'>
             <div className='px-8 py-4 border text-start'>
                 <h1 className='text-[25px] max-md:text-[22px] font-semibold flex items-center my-2'>SM North <FaLocationDot className='text-[20px] max-md:text-[18px] mx-2'/></h1>
                 <p className='my-2'>North Avenue, corner Epifanio de los Santos Ave, Quezon City, 1100 Metro Manila</p>

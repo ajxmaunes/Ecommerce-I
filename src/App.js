@@ -19,6 +19,8 @@ import Login from "./pages/Login";
 import MobileMenu from "./components/MobileMenu";
 import StoreLocations from "./pages/StoreLocations";
 import FAQs from "./pages/FAQs";
+import Careers from "./pages/Careers";
+import Contact from "./pages/Contact";
 
 
 function App() {
@@ -36,6 +38,8 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/store" element={<StoreLocations />} />
             <Route path="/faqs" element={<FAQs />} />
+            <Route path="/careers" element={<Careers />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
           <Sidebar />
           <MobileMenu/>

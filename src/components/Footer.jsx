@@ -14,8 +14,8 @@ const Footer = () => {
           <Link className={aStyle} to="/store">Store locations</Link>
           <Link className={aStyle} to="/faqs">FAQs</Link>
           <a className={aStyle} href="/">News</a>
-          <a className={aStyle} href="/">Careers</a>
-          <a className={aStyle} href="/">Contact Us</a>
+          <Link className={aStyle} to="/careers">Careers</Link>
+          <Link className={aStyle} to="/contact">Contact Us</Link>
           <a className={aStyle} href="/">About</a>
         </div>
         <div className='flex justify-center items-center mb-[2rem]'>

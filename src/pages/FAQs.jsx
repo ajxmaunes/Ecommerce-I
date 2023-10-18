@@ -82,10 +82,10 @@ function FAQs() {
 
                 {/* Content */}
                 <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
                 </div>
             </div>
-
+            
             <div className='relative w-[40rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
                 <input className='peer absolute top-0 inset-x-0 w-full h-12 z-10 cursor-pointer opacity-0' type="checkbox" />
                 <div className='h-12 w-full pl-5'>
