@@ -18,10 +18,10 @@ function FAQs() {
         </div>
 
         <div className='shadow-xl'>
-            <div className='relative w-[40rem] max-md:w-[22rem] overflow-hidden border'>
+            <div className='relative w-[42rem] max-md:w-[22rem] overflow-hidden border'>
                 <input className='peer absolute top-0 inset-x-0 w-full h-12 z-10 cursor-pointer opacity-0' type="checkbox" />
                 <div className='h-12 w-full pl-5'>
-                    <h1 className='text-lg max-sm:text-[15px] py-3 font-medium'>
+                    <h1 className='text-[17px] max-sm:text-[15px] py-3 font-medium'>
                     1. What countries do you ship to?
                     </h1>
                 </div>
@@ -30,15 +30,15 @@ function FAQs() {
                 <div className='text-[2rem] max-md:text-[1.7rem] absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180'><MdKeyboardArrowDown/></div>
 
                 {/* Content */}
-                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-80'>
+                    <p className='p-6 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum porro vitae. Dicta maxime a vitae architecto quae laboriosam dolor explicabo delectus amet blanditiis aspernatur libero officiis, beatae error quibusdam accusamus consequatur provident corrupti porro corporis nisi obcaecati aliquid nihil ut. Odit, itaque atque? Natus velit provident culpa repellat saepe?</p>
                 </div>
             </div>
 
-            <div className='relative w-[40rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
+            <div className='relative w-[42rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
                 <input className='peer absolute top-0 inset-x-0 w-full h-12 z-10 cursor-pointer opacity-0' type="checkbox" />
                 <div className='h-12 w-full pl-5'>
-                    <h1 className='text-lg max-sm:text-[15px] py-3 font-medium'>
+                    <h1 className='text-[17px] max-sm:text-[15px] py-3 font-medium'>
                     2. What is your return/exchange policy?
                     </h1>
                 </div>
@@ -47,15 +47,15 @@ function FAQs() {
                 <div className='text-[2rem] max-md:text-[1.7rem] absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180'><MdKeyboardArrowDown/></div>
 
                 {/* Content */}
-                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-80'>
+                    <p className='p-6 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum porro vitae. Dicta maxime a vitae architecto quae laboriosam dolor explicabo delectus amet blanditiis aspernatur libero officiis, beatae error quibusdam accusamus consequatur provident corrupti porro corporis nisi obcaecati aliquid nihil ut. Odit, itaque atque? Natus velit provident culpa repellat saepe?</p>
                 </div>
             </div>
 
-            <div className='relative w-[40rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
+            <div className='relative w-[42rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
                 <input className='peer absolute top-0 inset-x-0 w-full h-12 z-10 cursor-pointer opacity-0' type="checkbox" />
                 <div className='h-12 w-full pl-5'>
-                    <h1 className='text-lg max-sm:text-[15px] py-3 font-medium'>
+                    <h1 className='text-[17px] max-sm:text-[15px] py-3 font-medium'>
                     3. How long will it take to get my order?
                     </h1>
                 </div>
@@ -64,15 +64,15 @@ function FAQs() {
                 <div className='text-[2rem] max-md:text-[1.7rem] absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180'><MdKeyboardArrowDown/></div>
 
                 {/* Content */}
-                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-80'>
+                    <p className='p-6 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum porro vitae. Dicta maxime a vitae architecto quae laboriosam dolor explicabo delectus amet blanditiis aspernatur libero officiis, beatae error quibusdam accusamus consequatur provident corrupti porro corporis nisi obcaecati aliquid nihil ut. Odit, itaque atque? Natus velit provident culpa repellat saepe?</p>
                 </div>
             </div>
 
-            <div className='relative w-[40rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
+            <div className='relative w-[42rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
                 <input className='peer absolute top-0 inset-x-0 w-full h-12 z-10 cursor-pointer opacity-0' type="checkbox" />
                 <div className='h-12 w-full pl-5'>
-                    <h1 className='text-lg max-sm:text-[15px] py-3 font-medium'>
+                    <h1 className='text-[17px] max-sm:text-[15px] py-3 font-medium'>
                     4. What payment methods do you accept?
                     </h1>
                 </div>
@@ -81,15 +81,15 @@ function FAQs() {
                 <div className='text-[2rem] max-md:text-[1.7rem] absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180'><MdKeyboardArrowDown/></div>
 
                 {/* Content */}
-                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-80'>
+                    <p className='p-6 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum porro vitae. Dicta maxime a vitae architecto quae laboriosam dolor explicabo delectus amet blanditiis aspernatur libero officiis, beatae error quibusdam accusamus consequatur provident corrupti porro corporis nisi obcaecati aliquid nihil ut. Odit, itaque atque? Natus velit provident culpa repellat saepe?</p>
                 </div>
             </div>
             
-            <div className='relative w-[40rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
+            <div className='relative w-[42rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
                 <input className='peer absolute top-0 inset-x-0 w-full h-12 z-10 cursor-pointer opacity-0' type="checkbox" />
                 <div className='h-12 w-full pl-5'>
-                    <h1 className='text-lg max-sm:text-[15px] py-3 font-medium'>
+                    <h1 className='text-[17px] max-sm:text-[15px] py-3 font-medium'>
                     5. How long does order processing take?
                     </h1>
                 </div>
@@ -98,15 +98,15 @@ function FAQs() {
                 <div className='text-[2rem] max-md:text-[1.7rem] absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180'><MdKeyboardArrowDown/></div>
 
                 {/* Content */}
-                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-80'>
+                    <p className='p-6 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum porro vitae. Dicta maxime a vitae architecto quae laboriosam dolor explicabo delectus amet blanditiis aspernatur libero officiis, beatae error quibusdam accusamus consequatur provident corrupti porro corporis nisi obcaecati aliquid nihil ut. Odit, itaque atque? Natus velit provident culpa repellat saepe?</p>
                 </div>
             </div>
 
-            <div className='relative w-[40rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
+            <div className='relative w-[42rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
                 <input className='peer absolute top-0 inset-x-0 w-full h-12 z-10 cursor-pointer opacity-0' type="checkbox" />
                 <div className='h-12 w-full pl-5'>
-                    <h1 className='text-lg max-sm:text-[15px] py-3 font-medium'>
+                    <h1 className='text-[17px] max-sm:text-[15px] py-3 font-medium'>
                     6. How do I cancel/modify an order?
                     </h1>
                 </div>
@@ -115,15 +115,15 @@ function FAQs() {
                 <div className='text-[2rem] max-md:text-[1.7rem] absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180'><MdKeyboardArrowDown/></div>
 
                 {/* Content */}
-                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-80'>
+                    <p className='p-6 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum porro vitae. Dicta maxime a vitae architecto quae laboriosam dolor explicabo delectus amet blanditiis aspernatur libero officiis, beatae error quibusdam accusamus consequatur provident corrupti porro corporis nisi obcaecati aliquid nihil ut. Odit, itaque atque? Natus velit provident culpa repellat saepe?</p>
                 </div>
             </div>
 
-            <div className='relative w-[40rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
+            <div className='relative w-[42rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
                 <input className='peer absolute top-0 inset-x-0 w-full h-12 z-10 cursor-pointer opacity-0' type="checkbox" />
                 <div className='h-12 w-full pl-5'>
-                    <h1 className='text-lg max-sm:text-[15px] py-3 font-medium'>
+                    <h1 className='text-[17px] max-sm:text-[15px] py-3 font-medium'>
                     7. How can I track my order?
                     </h1>
                 </div>
@@ -132,15 +132,15 @@ function FAQs() {
                 <div className='text-[2rem] max-md:text-[1.7rem] absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180'><MdKeyboardArrowDown/></div>
 
                 {/* Content */}
-                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-80'>
+                    <p className='p-6 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum porro vitae. Dicta maxime a vitae architecto quae laboriosam dolor explicabo delectus amet blanditiis aspernatur libero officiis, beatae error quibusdam accusamus consequatur provident corrupti porro corporis nisi obcaecati aliquid nihil ut. Odit, itaque atque? Natus velit provident culpa repellat saepe?</p>
                 </div>
             </div>
 
-            <div className='relative w-[40rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
+            <div className='relative w-[42rem] max-md:w-[22rem] overflow-hidden border border-t-0'>
                 <input className='peer absolute top-0 inset-x-0 w-full h-12 z-10 cursor-pointer opacity-0' type="checkbox" />
                 <div className='h-12 w-full pl-5'>
-                    <h1 className='text-lg max-sm:text-[15px] py-3 font-medium'>
+                    <h1 className='text-[17px] max-sm:text-[15px] py-3 font-medium'>
                     8. What if my order arrives damaged?
                     </h1>
                 </div>
@@ -149,8 +149,8 @@ function FAQs() {
                 <div className='text-[2rem] max-md:text-[1.7rem] absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180'><MdKeyboardArrowDown/></div>
 
                 {/* Content */}
-                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-40'>
-                    <p className='p-4 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis perspiciatis inventore saepe! Voluptatem, quas voluptates.</p>
+                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-80'>
+                    <p className='p-6 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum porro vitae. Dicta maxime a vitae architecto quae laboriosam dolor explicabo delectus amet blanditiis aspernatur libero officiis, beatae error quibusdam accusamus consequatur provident corrupti porro corporis nisi obcaecati aliquid nihil ut. Odit, itaque atque? Natus velit provident culpa repellat saepe?</p>
                 </div>
             </div>
         </div>

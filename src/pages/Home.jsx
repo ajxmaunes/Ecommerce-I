@@ -27,10 +27,9 @@ const Home = () => {
     <div className="container text-center text-[18px] max-sm:hidden py-3">
           <Link className={aStyle} to='/store'>Store locations</Link>
           <Link className={aStyle} to="/faqs">FAQs</Link>
-          <a className={aStyle} href="/">News</a>
           <Link className={aStyle} to="/careers">Careers</Link>
           <Link className={aStyle} to="/contact">Contact Us</Link>
-          <a className={aStyle} href="/">About</a>
+          <Link className={aStyle} to="/about">About</Link>
       </div>
     <Hero />
       <section className='md:px-[30px] max-md:px-[30px]'>

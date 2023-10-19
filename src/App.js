@@ -21,6 +21,7 @@ import StoreLocations from "./pages/StoreLocations";
 import FAQs from "./pages/FAQs";
 import Careers from "./pages/Careers";
 import Contact from "./pages/Contact";
+import About from "./pages/About";
 
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
             <Route path="/faqs" element={<FAQs />} />
             <Route path="/careers" element={<Careers />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<About />} />
           </Routes>
           <Sidebar />
           <MobileMenu/>

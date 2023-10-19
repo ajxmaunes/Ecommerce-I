@@ -11,19 +11,18 @@ const Footer = () => {
     <footer className='bg-primary py-10'>
       <div className='container mx-auto'>
         <div className="footer-links text-center mb-[2rem] text-white text-[20px] max-sm:hidden">
-          <Link className={aStyle} to="/store">Store locations</Link>
-          <Link className={aStyle} to="/faqs">FAQs</Link>
-          <a className={aStyle} href="/">News</a>
-          <Link className={aStyle} to="/careers">Careers</Link>
-          <Link className={aStyle} to="/contact">Contact Us</Link>
-          <a className={aStyle} href="/">About</a>
+          <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/store">Store locations</Link>
+          <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/faqs">FAQs</Link>
+          <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/careers">Careers</Link>
+          <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/contact">Contact Us</Link>
+          <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/about">About</Link>
         </div>
         <div className='flex justify-center items-center mb-[2rem]'>
           <BsFacebook color='white' className='text-[25px] mx-[1rem] cursor-pointer'/>
           <BsInstagram color='white' className='text-[25px] mx-[1rem] cursor-pointer'/>
         </div>
-        <p className='text-white text-center text-[14px] max-sm:text-[15px]'>
-          Copyright &copy; Ecommerce Shop 2022. All rights reserved.
+        <p className='text-white text-center text-[16px] max-sm:text-[15px]'>
+           &copy; Design by <a className=' border-b-[1px]' href='https://aljunemaunes.info/' target="new">www.aljunemaunes.info</a>
         </p>
       </div>
     </footer>

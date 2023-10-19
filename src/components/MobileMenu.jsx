@@ -22,12 +22,11 @@ const MobileMenu = () => {
       </div>
 
       <div onClick={handleClose} className="footer-links flex flex-col text-center mt-[4rem] text-[18px]">
-          <Link className={aStyle} to="/store">Store locations</Link>
-          <Link className={aStyle} to="/faqs">FAQs</Link>
-          <a className={aStyle} href="/">News</a>
-          <Link className={aStyle} to="/careers">Careers</Link>
-          <Link className={aStyle} to="/contact">Contact Us</Link>
-          <a className={aStyle} href="/">About</a>
+          <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/store">Store locations</Link>
+          <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/faqs">FAQs</Link>
+          <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/careers">Careers</Link>
+          <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/contact">Contact Us</Link>
+          <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/about">About</Link>
       </div>
 
       <div className='flex justify-center items-center mt-[2rem]'>

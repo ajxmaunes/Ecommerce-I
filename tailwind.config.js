@@ -24,7 +24,7 @@ module.exports = {
         secondary: '#F5E6E0',
       },
       backgroundImage: {
-        hero: '',
+        hero: "",
       },
     },
   },
