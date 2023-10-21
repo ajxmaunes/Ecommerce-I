@@ -10,7 +10,8 @@ const Footer = () => {
   return (
     <footer className='bg-primary py-10'>
       <div className='container mx-auto'>
-        <div className="footer-links text-center mb-[2rem] text-white text-[20px] max-sm:hidden">
+        <div className="footer-links ml-4 text-center mb-[2rem] text-white text-[20px] max-sm:hidden">
+          <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/">Home</Link>
           <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/store">Store locations</Link>
           <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/faqs">FAQs</Link>
           <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/careers">Careers</Link>
