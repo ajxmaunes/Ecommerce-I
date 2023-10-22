@@ -22,6 +22,7 @@ const MobileMenu = () => {
       </div>
 
       <div onClick={handleClose} className="footer-links flex flex-col text-center mt-[4rem] text-[18px]">
+          <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/">Home</Link>
           <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/store">Store locations</Link>
           <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/faqs">FAQs</Link>
           <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/careers">Careers</Link>

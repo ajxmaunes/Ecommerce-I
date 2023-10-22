@@ -20,11 +20,11 @@ const Home = () => {
   // get only men's & women's clothing category
   const filteredProducts = products.filter(item => {
     return item.category === "men's clothing" || item.category === "women's clothing" || item.category === "jewelery"
-  })
+  })    
 
   const aStyle = "p-[15px] hover:text-[#1450A3]"
   return <div className='md:mt-[5rem] max-md:mt-[1.5rem]'>
-    <div className="container text-center text-[18px] max-sm:hidden py-3">
+    <div className="container text-center text-[18px] max-md:hidden py-3">
           <Link className={aStyle} to='/store'>Store locations</Link>
           <Link className={aStyle} to="/faqs">FAQs</Link>
           <Link className={aStyle} to="/careers">Careers</Link>

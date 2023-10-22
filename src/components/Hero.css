@@ -79,7 +79,7 @@
     background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-@media (max-width:850px) {
+@media (max-width:1000px) {
     .grid-container {
         height: 450px;
         display: grid;
@@ -94,7 +94,7 @@
     }
 }
 
-@media (max-width:450px) {
+@media (max-width:700px) {
     .grid-container {
         margin-top: 3.5rem;
     }

@@ -27,10 +27,10 @@ function FAQs() {
                 </div>
 
                 {/* Arrow Icon */}
-                <div className='text-[2rem] max-md:text-[1.7rem] absolute top-3 right-3 transition-transform duration-500 rotate-0 peer-checked:rotate-180'><MdKeyboardArrowDown/></div>
+                <div className='text-[2rem] max-md:text-[1.7rem] absolute top-3 right-3 transition-transform duration-500 rotate-180 peer-checked:rotate-0'><MdKeyboardArrowDown/></div>
 
                 {/* Content */}
-                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-0 peer-checked:max-h-80'>
+                <div className='bg-gray-200 overflow-hidden transition-all duration-500 max-h-80 peer-checked:max-h-0'>
                     <p className='p-6 max-md:text-[14px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum rerum porro vitae. Dicta maxime a vitae architecto quae laboriosam dolor explicabo delectus amet blanditiis aspernatur libero officiis, beatae error quibusdam accusamus consequatur provident corrupti porro corporis nisi obcaecati aliquid nihil ut. Odit, itaque atque? Natus velit provident culpa repellat saepe?</p>
                 </div>
             </div>
