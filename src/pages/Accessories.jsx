@@ -20,7 +20,7 @@ const Accessories = () => {
   return (
       <div>
           <section className='md:px-[30px] max-md:px-[30px] py-[6rem]'>
-            <div className='text-[35px] max-md:text-[30px] flex justify-center mb-[1rem] items-center'>
+            <div className='text-[35px] max-md:text-[30px] flex justify-center mb-[3rem] items-center'>
               <h1 className='border-b-4'>ACCESSORIES</h1>
             </div>
               <div className='container mx-auto'>
