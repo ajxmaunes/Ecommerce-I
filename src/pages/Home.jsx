@@ -26,7 +26,7 @@ const Home = () => {
   }) 
 
 
-  const aStyle = "p-[15px] font-semibold hover:text-[#1450A3]"
+  const aStyle = "px-[15px] hover:text-[#1450A3]"
   return <div className='md:mt-[6rem] max-md:mt-[1.5rem]'>
     <div className="container text-center text-[18px] max-md:hidden py-3 bg-gray-200">
           <a className={aStyle} href='#shop'>Shop</a>

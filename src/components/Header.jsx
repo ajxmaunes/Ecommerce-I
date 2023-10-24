@@ -30,10 +30,10 @@ const Header = () => {
           <div onClick={() => setIsOpenLeft(!isOpenLeft)} className='md:hidden'>
             <HiOutlineMenuAlt2 className='text-[30px] mr-10 max-md:mr-4 -ml-2 items-center'/>
           </div>
-          <Link onClick={() => window.scrollTo(0, 0)} to={'/*'} className='mr-4 max-md:hidden cursor-pointer'>
+          <a onClick={() => window.scrollTo(0, 0)} href='https://ajxmaunes.github.io/Ecommerce-I/' className='mr-4 max-md:hidden cursor-pointer'>
               {/* logo */}
               <h1 className='text-[25px] max-md:text-[20px] font-medium border-solid border-2 px-2 border-black text-center'>f'O</h1>
-          </Link>
+          </a>
           <Link onClick={() => window.scrollTo(0, 0)} to={'/*'} className='text-[25px] border-b-4 border-[#1450A3] max-md:text-[20px] max-md:border-b-2'>FASH-OFF</Link>
           {/* cart */}
           <div className='cursor-pointer flex relative items-center'>

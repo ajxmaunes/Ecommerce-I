@@ -1,4 +1,8 @@
 import React from 'react'
+// import icons
+import { IoIosArrowBack } from 'react-icons/io';
+// import link
+import { Link } from 'react-router-dom'
 
 function Careers() {
 
@@ -6,15 +10,19 @@ function Careers() {
   return (
     <div>
         <section className='container pt-[6rem] pb-[5rem] max-md:pt-[6rem]'>
-            <div className='text-[30px] max-md:text-[25px] flex justify-center items-center'>
-                <h1 className='border-b-4'>CAREERS</h1>
+
+            <div className="container text-start text-[18px] max-md:text-[16px] py-3 bg-gray-200">
+                <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Home</Link>
             </div>
-            <div className='text-[22px] max-md:text-[18px] font-semibold text-gray-500 flex justify-center items-center mt-2'>
-                Hey there. Join our team
+            
+            <div className='text-[30px] p-[2rem] max-md:text-[25px] flex flex-col justify-center items-center'>
+                <h1 className='border-b-4'>CAREERS</h1>
+                <p className='text-[22px] max-md:text-[18px] font-semibold text-gray-500 flex justify-center items-center mt-2'>
+                Hey there. Join our team</p>
             </div>
 
             <div className='flex max-lg:flex-col justify-between max-md:text-center items-center'>
-                <div className='mt-[2rem] w-[49%] max-md:w-[92%] max-lg:w-[85%] border p-8 max-md:px-4'>
+                <div className='w-[49%] max-md:w-[92%] max-lg:w-[85%] border p-8 max-md:px-4'>
                     <div className='md:w-[55px] max-md:mx-[40%]'>
                         <h1 className='text-[25px] mb-4 max-md:text-[23px] font-medium border-solid border-2 px-2 border-black text-center'>f'O</h1>
                     </div>
@@ -30,7 +38,7 @@ function Careers() {
                     </div>
                 </div>
 
-                <div className='mt-[2rem] w-[49%] max-md:w-[92%] max-lg:w-[85%] border p-8 max-md:px-4'>
+                <div className='max-lg:mt-[2rem] w-[49%] max-md:w-[92%] max-lg:w-[85%] border p-8 max-md:px-4'>
                     <div className='md:w-[55px] max-md:mx-[40%]'>
                         <h1 className='text-[25px] mb-4 max-md:text-[23px] font-medium border-solid border-2 px-2 border-black text-center'>f'O</h1>
                     </div>

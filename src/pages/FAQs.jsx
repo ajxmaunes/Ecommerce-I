@@ -1,11 +1,19 @@
 import React from 'react'
 // import icons
 import { MdKeyboardArrowDown } from 'react-icons/md';
+import { IoIosArrowBack } from 'react-icons/io';
+// import link
+import { Link } from 'react-router-dom'
 
 function FAQs() {
   return (
-    <div className='container h-auto pb-[5rem] pt-[5rem] flex flex-col items-center'>
-        <div className='w-[44rem] max-md:w-[22rem] p-4'>
+    <div className='container h-auto pb-[5rem] pt-[6rem] flex flex-col items-center'>
+
+        <div className="container text-start text-[18px] max-md:text-[16px] py-3 bg-gray-200">
+          <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Home</Link>
+        </div>
+
+        <div className='w-[44rem] max-md:w-[22rem] py-[2rem]'>
             <div className='text-[35px] max-md:text-[30px] flex justify-center items-center'>
                 <h1 className='border-b-4'>FAQs</h1>
             </div>

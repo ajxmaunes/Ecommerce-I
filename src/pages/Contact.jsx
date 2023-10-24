@@ -2,22 +2,23 @@ import React from 'react'
 // Import icons
 import { BsFacebook } from 'react-icons/bs';
 import { BsInstagram } from 'react-icons/bs';
+import { IoIosArrowBack } from 'react-icons/io';
+// import link
+import { Link } from 'react-router-dom'
 
 function Contact() {
   return (
     <div>
         <section className='container pt-[6rem] max-md:pt-[6rem]'>
 
-        <div className="login-banner relative justify-center flex">
-          <h1 className="text-white absolute bottom-[25px] text-[3rem] font-bold">
-            Contact Us
-          </h1>
+        <div className="container text-start text-[18px] max-md:text-[16px] py-3 bg-gray-200">
+          <Link to="\" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Home</Link>
         </div>
         
         {/* contact */}
-        <div className='flex max-lg:flex-col justify-between max-md:text-center max-lg:items-center my-[5rem] max-md:mt-0'>
+        <div className='flex max-lg:flex-col justify-between max-md:text-center max-lg:items-center my-[4rem] max-md:mt-0'>
           {/* first col */}
-          <div className="w-[45%] max-lg:w-[90%]">
+          <div className="w-[45%] max-md:mt-[2rem] max-lg:w-[90%]">
             <h2 className="text-black text-[36px] max-md:text-[28px] max-lg:text-center">
               We are here for help you!
             </h2>

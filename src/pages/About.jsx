@@ -3,18 +3,24 @@ import React from 'react'
 import { Link } from "react-router-dom";
 // import image
 import img2 from "../img/home-img-5.jpg"
+// Import icons
+import { IoIosArrowBack } from 'react-icons/io';
 
 function About() {
   return (
-    <div className="container max-sm:mb-0">
+    <div className="container pt-[6rem] max-sm:mb-0">
+
+        <div className="container text-start text-[18px] max-md:text-[16px] py-3 bg-gray-200">
+          <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Home</Link>
+        </div>
 
         <div>
-            <div style={{ backgroundImage: `url(${img2})`, backgroundSize:"100% 100%", backgroundRepeat: 'no-repeat' }} className="mt-[6rem] max-md:hidden h-[22rem] max-lg:h-[18rem] max-md:text-[25px] flex justify-center items-center">
+            <div style={{ backgroundImage: `url(${img2})`, backgroundSize:"100% 100%", backgroundRepeat: 'no-repeat' }} className="mt-[10px] max-md:hidden h-[22rem] max-lg:h-[18rem] max-md:text-[25px] flex justify-center items-center">
                     <h1 className='text-[30px] border-b-4 border-[#1450A3] -mt-[14rem] max-lg:-mt-[12rem]'>ABOUT</h1>
             </div>
         </div>
 
-        <div className='text-[30px] pt-[6rem] pb-[2rem] md:hidden max-md:text-[25px] flex justify-center items-center'>
+        <div className='text-[30px] py-[2rem] md:hidden max-md:text-[25px] flex justify-center items-center'>
                 <h1 className='border-b-4'>ABOUT</h1>
         </div>
 
