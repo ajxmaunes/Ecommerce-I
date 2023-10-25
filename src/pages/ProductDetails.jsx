@@ -5,6 +5,10 @@ import { useParams } from 'react-router-dom'
 import { CartContext } from '../contexts/CartContext'
 // import product context
 import { ProductContext } from '../contexts/ProductContext'
+// import link
+import { Link } from 'react-router-dom'
+// import icon
+import { IoIosArrowBack } from 'react-icons/io';
 
 const ProductDetails = () => {
   // get the product id from the url
@@ -31,7 +35,14 @@ const ProductDetails = () => {
   // destructure product
   const { title, price, description, image } = product
   return (
-    <section className='py-[9rem] lg:-ml-[4rem] max-lg:h-screen flex items-center max-sm:py-[6rem] max-sm:h-auto'>
+    <div className='pt-[6rem]'>
+
+      <div className="container text-start text-[18px] max-md:text-[16px] py-3 bg-gray-200">
+          <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Back</Link>
+      </div>
+
+    <section className='py-[4rem] lg:-ml-[4rem] flex items-center max-md:py-[3rem] max-md:h-auto'>
+
       <div className='container mx-auto'>
         {/* image & text wrapper */}
         <div className='flex flex-col lg:flex-row items-center'>
@@ -49,6 +60,7 @@ const ProductDetails = () => {
         </div>
       </div>
     </section>
+    </div>
   )
 }
 
