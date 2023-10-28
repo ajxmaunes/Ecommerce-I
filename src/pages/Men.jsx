@@ -5,6 +5,7 @@ import { ProductContext } from '../contexts/ProductContext'
 
 // import components
 import Product from '../components/Product'
+import Slider from '../components/Slider';
 
 // import icons
 import { IoIosArrowBack } from 'react-icons/io';
@@ -40,6 +41,7 @@ const Men = () => {
                 </div>
               </div>
           </section>
+          <Slider />
       </div>
   )
 }

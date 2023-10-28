@@ -41,7 +41,7 @@ const ProductDetails = () => {
           <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Back</Link>
       </div>
 
-    <section className='py-[4rem] lg:-ml-[4rem] flex items-center max-md:py-[3rem] max-md:h-auto'>
+    <section className='pt-[6rem] pb-[8rem] lg:-ml-[4rem] flex items-center max-md:py-[3rem] max-md:h-auto'>
 
       <div className='container mx-auto'>
         {/* image & text wrapper */}

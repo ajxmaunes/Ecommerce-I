@@ -8,10 +8,10 @@ import { IoIosArrowBack } from 'react-icons/io';
 
 function About() {
   return (
-    <div className="container pt-[6rem] max-sm:mb-0">
+    <div className="container max-lg:pb-[4rem] pt-[6rem] max-sm:mb-0">
 
         <div className="container text-start text-[18px] max-md:text-[16px] py-3 bg-gray-200">
-          <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Home</Link>
+          <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Back</Link>
         </div>
 
         <div>
@@ -24,7 +24,7 @@ function About() {
                 <h1 className='border-b-4'>ABOUT</h1>
         </div>
 
-      <div className="pb-[4rem] max-md:pb-8">
+      <div className="">
         <div className="h-auto max-md:h-auto overflow-hidden flex-row-reverse max-sm:m-0">
           <div className="text-side max-sm:w-[100%] text-start max-sm:text-center flex flex-col justify-center lg:px-[15rem] max-lg:px-[6rem] md:py-[40px] max-md:px-[20px] max-md:py-[40px] bg-[#E9E9E9]">
             <div className="text-center">

@@ -2,6 +2,7 @@ import React, { useContext } from 'react'
 
 // import product context
 import { ProductContext } from '../contexts/ProductContext'
+import Slider from '../components/Slider';
 
 // import components
 import Product from '../components/Product'
@@ -38,6 +39,7 @@ const Bags = () => {
                 </div>
               </div>
           </section>
+          <Slider />
       </div>
   )
 }

@@ -7,10 +7,10 @@ import { Link } from 'react-router-dom'
 
 function FAQs() {
   return (
-    <div className='container h-auto pb-[5rem] pt-[6rem] flex flex-col items-center'>
+    <div className='container h-auto max-lg:pb-[4rem] pt-[6rem] flex flex-col items-center'>
 
         <div className="container text-start text-[18px] max-md:text-[16px] py-3 bg-gray-200">
-          <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Home</Link>
+          <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Back</Link>
         </div>
 
         <div className='w-[44rem] max-md:w-[22rem] py-[2rem]'>

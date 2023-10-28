@@ -9,10 +9,10 @@ function Careers() {
     const buttonStyle = 'border mr-2 my-1 py-2 px-4 text-sm max-md:text-[14px] bg-[#1450A3] text-white rounded-[10px]'
   return (
     <div>
-        <section className='container pt-[6rem] pb-[5rem] max-md:pt-[6rem]'>
+        <section className='container max-lg:pb-[4rem] pt-[6rem] max-md:pt-[6rem]'>
 
             <div className="container text-start text-[18px] max-md:text-[16px] py-3 bg-gray-200">
-                <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Home</Link>
+                <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Back</Link>
             </div>
             
             <div className='text-[30px] p-[2rem] max-md:text-[25px] flex flex-col justify-center items-center'>

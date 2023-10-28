@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom';
 const Footer = () => {
   const aStyle = "p-[15px] hover:text-[18px]"
   return (
-    <footer className='bg-primary py-10'>
+    <footer className='bg-primary py-10 lg:mt-[4rem] '>
       <div className='container mx-auto'>
         <div className="footer-links ml-4 text-center mb-[2rem] text-white text-[20px] max-sm:hidden">
           <Link onClick={() => window.scrollTo(0, 0)} className={aStyle} to="/">Home</Link>

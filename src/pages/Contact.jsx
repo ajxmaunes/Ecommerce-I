@@ -12,7 +12,7 @@ function Contact() {
         <section className='container pt-[6rem] max-md:pt-[6rem]'>
 
         <div className="container text-start text-[18px] max-md:text-[16px] py-3 bg-gray-200">
-          <Link to="\" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Home</Link>
+          <Link to="\" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Back</Link>
         </div>
         
         {/* contact */}
@@ -26,7 +26,7 @@ function Contact() {
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ullam eius facilis officia aut consequatur maiores dolor exercitationem fugit reprehenderit ad odit quae numquam necessitatibus! Asperiores, recusandae obcaecati. Illum delectus reprehenderit, pariatur eligendi labore sit error. Repellendus natus veniam similique.
             </p>
 
-            <div className="grid grid-cols-2 grid-rows-2 max-md:grid-cols-1 max-lg:mx-[8rem] max-md:mx-0 max-md:items-center max-md:text-start max-md:ml-2">
+            <div className="grid grid-cols-2 grid-rows-2 max-lg:mx-[8rem] max-md:mx-0 max-md:items-center max-md:text-start max-md:ml-2">
               {/*  */}
               <div className="flex flex-col relative">
                 <h3 className="text-[1.8rem] max-md:text-[1.2rem] mb-5">Information</h3>
@@ -37,7 +37,7 @@ function Contact() {
                 </div>
               </div>
               {/*  */}
-              <div className="flex flex-col relative">
+              <div className="flex flex-col max-md:-top-2 max-md:left-4 relative">
                 <h3 className="text-[1.75rem] max-md:text-[1.2rem] mb-5">Follow Us On</h3>
                 <span className="bg-[#1450A3] w-[50px] h-[4px] absolute top-[45px] max-md:top-[30px]"></span>
                 <div className="text-[18px] text-black flex gap-5">
@@ -49,7 +49,7 @@ function Contact() {
           </div>
 
           {/* second col ---*/}
-          <div className="w-[45%] max-lg:w-[90%] max-md:mt-6 flex flex-col relative">
+          <div className="w-[45%] max-lg:w-[90%] flex flex-col relative max-lg:-top-8">
             <h2 className="text-black mb-6 text-[36px] max-md:text-[28px] max-md:text-start">
               Email Us
             </h2>

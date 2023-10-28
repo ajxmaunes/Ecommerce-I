@@ -10,10 +10,10 @@ import { Link } from 'react-router-dom'
 function StoreLocations() {
   return (
     <>
-      <section className='mt-[6rem] text-center'>
+      <section className='container pt-[6rem] text-center'>
 
-        <div className="container text-start text-[18px] max-md:text-[16px] py-3 bg-gray-200">
-          <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Home</Link>
+        <div className="text-start text-[18px] max-md:text-[16px] py-3 bg-gray-200">
+          <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Back</Link>
         </div>
         
         <div className='text-[30px] pt-[2rem] max-md:text-[25px] flex justify-center items-center'>
