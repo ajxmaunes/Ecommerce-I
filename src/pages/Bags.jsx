@@ -24,7 +24,7 @@ const Bags = () => {
         <div className='pt-[6rem]'>
           
           <div className="container text-start text-[18px] max-md:text-[16px] py-3 bg-gray-200">
-            <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Home</Link>
+            <Link to="/" className="ml-[5rem] max-md:ml-[1rem] items-center flex font-semibold hover:text-[#1450A3]"><IoIosArrowBack/>Back</Link>
           </div>
 
           <section className='md:px-[30px] max-md:px-[30px] pt-[2rem] pb-[4rem]'>
