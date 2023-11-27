@@ -1,4 +1,4 @@
-import React, { useContext } from 'react'
+import React, { useContext, useState } from 'react'
 
 // import product context
 import { ProductContext } from '../contexts/ProductContext'
@@ -18,14 +18,19 @@ import "./ScrollText.css";
 
 
 
-const Home = () => {
+const Home = ({product}) => {
   // get products from product context
   const { products } = useContext(ProductContext)
   // get only men's & women's clothing category
   const filteredProducts = products.filter(item => {
     return item.category === "men's clothing" || item.category === "women's clothing" || item.category === "jewelery"
-  }) 
+  })
+  
 
+  console.log(products)
+
+  const [search, setSearch] = useState('')
+  
 
   const aStyle = "px-[15px] hover:text-[#1450A3]"
   return <div className='md:mt-[6rem] max-md:mt-[1.5rem]'>
@@ -45,15 +50,41 @@ const Home = () => {
       </div>
 
       <section className='md:px-[30px] max-md:px-[30px] mb-[3rem]'>
-        <div className='container text-[#1e293b] justify-center text-[35px] flex py-[3rem] max-md:text-[30px]'>
+        <div className='container text-[#1e293b] justify-center text-[35px] flex pt-[3rem] pb-[1rem] max-md:text-[30px]'>
          <span className='border-b-4 border-[#1450A3] flex items-center'>SHOP<AiOutlineShopping className='ml-1'/></span>
         </div>
 
+
+        <div className='container pb-[1rem] flex max-md:flex-col justify-between items-center'>
+          <div className="md:w-[48.8%] shadow-inner max-md:w-full border relative flex items-center h-12 focus-within:shadow-lg bg-white overflow-hidden">
+          <div className="grid place-items-center h-full w-12 text-gray-300">
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+              </svg>
+          </div>
+
+          <input
+          onChange={(e) => setSearch(e.target.value)}
+          className="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
+          type="text"
+          id="search"
+          placeholder="Search item.." /> 
+          </div>
+
+          <div className='md:w-[48.8%] max-md:hidden h-12 bg-gray-200 md:bg-gray-100 px-8 max-lg:px-4'></div>
+
+      </div>
+
+
         <div className='container mx-auto'>
           <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 xl:grid-cols-4 gap-[30px] max-w-sm mx-auto md:max-w-none md:mx-0'>
-            {filteredProducts.map(product => {
+            {filteredProducts.filter((products) => {
+              return search.toLowerCase() === '' ? products : products.title.toLowerCase().includes(search);
+            }).map(product => {
                 return <Product product={product} key={product.id} />
             })}
+
+            
           </div>
         </div>
       </section>
