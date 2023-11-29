@@ -25,12 +25,8 @@ const Home = ({product}) => {
   const filteredProducts = products.filter(item => {
     return item.category === "men's clothing" || item.category === "women's clothing" || item.category === "jewelery"
   })
-  
-
-  console.log(products)
 
   const [search, setSearch] = useState('')
-  
 
   const aStyle = "px-[15px] hover:text-[#1450A3]"
   return <div className='md:mt-[6rem] max-md:mt-[1.5rem]'>
@@ -56,7 +52,7 @@ const Home = ({product}) => {
 
 
         <div className='container pb-[1rem] flex max-md:flex-col justify-between items-center'>
-          <div className="md:w-[48.8%] shadow-inner max-md:w-full border relative flex items-center h-12 focus-within:shadow-lg bg-white overflow-hidden">
+          <div className="md:w-[48.8%] shadow-inner max-md:w-full border relative flex items-center h-12 focus-within:shadow-lg bg-white overflow-hidden max-md:mb-[1rem]">
           <div className="grid place-items-center h-full w-12 text-gray-300">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -65,15 +61,20 @@ const Home = ({product}) => {
 
           <input
           onChange={(e) => setSearch(e.target.value)}
-          className="peer h-full w-full outline-none text-sm text-gray-700 pr-2"
+          className="peer h-full w-full outline-none text-gray-700 pr-2"
           type="text"
           id="search"
           placeholder="Search item.." /> 
           </div>
 
-          <div className='md:w-[48.8%] max-md:hidden h-12 bg-gray-200 md:bg-gray-100 px-8 max-lg:px-4'></div>
+          <div className='md:w-[48.8%] max-md:text-[14px] flex text-primary font-semibold justify-between items-center max-md:w-full h-12 bg-[#e5e7eb] px-[4rem] max-lg:px-5'>
+              <Link className=' hover:text-[#1450A3] transform' to="/men" onClick={() => window.scrollTo(0, 0)}>MEN</Link>
+              <Link className=' hover:text-[#1450A3] transform' to="/women" onClick={() => window.scrollTo(0, 0)}>WOMEN</Link>
+              <Link className=' hover:text-[#1450A3] transform' to="/accessories" onClick={() => window.scrollTo(0, 0)}>ACCESSORIES</Link>
+              <Link className=' hover:text-[#1450A3] transform' to="/bags" onClick={() => window.scrollTo(0, 0)}>BAGS</Link>
+          </div>
 
-      </div>
+        </div>
 
 
         <div className='container mx-auto'>
