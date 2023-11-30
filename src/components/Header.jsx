@@ -38,7 +38,7 @@ const Header = () => {
           {/* cart */}
           <div className='cursor-pointer flex relative items-center'>
             {/* Login */}
-            <Link to={'/login'} className='max-md:hidden'>
+            <Link to={'/login'} onClick={() => window.scrollTo(0, 0)} className='max-md:hidden'>
               <IoPersonOutline className='text-[26px] mt-[1px] max-md:text-[25px]'/>
             </Link>
             <div onClick={() => setIsOpen(!isOpen)}>
